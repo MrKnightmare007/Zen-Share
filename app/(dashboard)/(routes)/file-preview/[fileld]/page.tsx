@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import { app } from "@/firebaseConfig";
+import { app } from "../../../../../firebaseConfig";
 import { getFirestore, doc, getDoc, updateDoc} from "firebase/firestore";
 import FileInfo from "./_components/FileInfo";
 import FileshareForm from "./_components/FileshareForm";
